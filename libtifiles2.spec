@@ -10,6 +10,7 @@ Source0: http://downloads.sourceforge.net/project/tilp/tilp2-linux/tilp2-1.16/%{
 Group: System/Libraries
 License: GPLv2+
 BuildRequires: libusb1-devel, glib2-devel
+BuildRequires: pkgconfig(ticalcs2) pkgconfig(ticonv) 
 BuildRequires: autoconf automake libtool gettext-devel pkgconfig(libusb)
 Requires: udev >= 154
 Summary: Library for handling TI link cables
