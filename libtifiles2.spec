@@ -55,3 +55,11 @@ rm -f %buildroot%{_libdir}/*.la
 %{_libdir}/libtifiles2.so
 %{_libdir}/pkgconfig/tifiles2.pc
 %{_datadir}/locale/fr/LC_MESSAGES/*.mo
+
+
+%changelog
+* Mon Feb 20 2012 Alexander Khrukin <akhrukin@mandriva.org> 1.1.5-1
++ Revision: 778110
+- BR: pkgconfig(ticonv)
+- imported package libtifiles2
+
