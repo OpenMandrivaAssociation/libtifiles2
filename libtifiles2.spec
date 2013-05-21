@@ -4,7 +4,7 @@
 
 Name: libtifiles2
 Version: 1.1.5
-Release: 1
+Release: 2
 Url: http://sourceforge.net/projects/tilp
 Source0: http://downloads.sourceforge.net/project/tilp/tilp2-linux/tilp2-1.16/%{name}-%{version}.tar.bz2
 Group: System/Libraries
